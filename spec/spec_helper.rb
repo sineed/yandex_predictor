@@ -1,5 +1,8 @@
-require "bundler/setup"
-require "yandex_predictor"
+require 'bundler/setup'
+require 'yandex_predictor'
+require 'rspec'
+require 'webmock/rspec'
+include WebMock
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

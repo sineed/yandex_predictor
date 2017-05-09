@@ -6,7 +6,7 @@ require 'yandex/predictor/version'
 Gem::Specification.new do |spec|
   spec.name          = "yandex_predictor"
   spec.version       = Yandex::Predictor::VERSION
-  spec.authors       = ["wowinter13"]
+  spec.authors       = ["Vladislav Dyachenko"]
   spec.email         = ["vla-dy@yandex.ru"]
 
   spec.summary       = %q{Yandex Predictor API}
@@ -20,7 +20,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.14"
+  spec.add_dependency "httparty"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_dependency "httparty"
+  spec.add_development_dependency 'webmock'
+
 end
