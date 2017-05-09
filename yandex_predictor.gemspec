@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'yandex_predictor/version'
+require 'yandex/predictor/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "yandex_predictor"
-  spec.version       = YandexPredictor::VERSION
+  spec.version       = Yandex::Predictor::VERSION
   spec.authors       = ["wowinter13"]
   spec.email         = ["vla-dy@yandex.ru"]
 
