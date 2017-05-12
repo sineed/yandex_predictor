@@ -4,6 +4,7 @@
 .config
 .yardoc
 .swp
+.rspec_status
 Gemfile.lock
 InstalledFiles
 _yardoc
