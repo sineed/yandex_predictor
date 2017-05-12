@@ -36,9 +36,3 @@ module Yandex
     end
   end
 end
-
-# trace for 'bundle exec irb'
-# pdct.1.1.20170420T132322Z.def0c212af6b1f08.2de32559e1d36b7b8810e24007425f0ee3b90c3d
-# require "./lib/yandex_predictor.rb"
-# client = Yandex::Client.new("pdct.1.1.20170303T085937Z.3c7ed246fedd19af.e69a7491f2c8c01ccc163e3084ee5a3d3249f133")
-# client.perform_request("me","en")
