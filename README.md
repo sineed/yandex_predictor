@@ -26,7 +26,7 @@ First, create predictor using your access token:
   predictor = Yandex::Client.new('your.token')
 ```
 
-To get list of possible translation directions use #langs method:
+To get list of possible languages use #langs method:
 
 ```ruby
   predictor.langs
